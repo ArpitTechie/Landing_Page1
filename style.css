@@ -1,0 +1,105 @@
+*{
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+}
+html,body{
+    padding: 0%;
+    margin: 0%;
+
+}
+main{
+    height: 100%;
+    width: 100%;
+}
+nav{
+    
+    margin: 0%;
+    justify-content: center;
+    flex-direction: column;
+   
+    text-align: center;
+    height: 22%;
+    width: 100%;
+    background-color: rgb(254, 253, 255);
+    /* text-wrap: center; */
+    /* display: inline-block; */
+}
+#head{
+    width: 100%;
+    padding-bottom: 10%;
+    background-color: rgb(255, 255, 255);
+    gap: 20px;
+  
+
+}
+
+p{
+    padding-top: 1%;
+    height: auto;
+    display: flex;
+    width: 70vw;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    justify-content:center;
+    text-align: center;
+    padding-left: 27%;
+   
+
+}
+
+#arpit{
+    height: 5%;
+    background-color: rgb(255, 255, 255);
+    padding-left: 45%;
+}
+
+button{
+    width: 20%;
+    height: 100%;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    align-self: center;
+    /* padding-right: 60%; */
+
+}
+
+
+
+.image{
+    height: 35%;
+    width: 100%;
+    display: block
+}
+
+#colum1{
+    width: 100%;
+    padding: 1%;
+    display: flex;
+    flex-direction: row;
+    gap: 3vw;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+}
+.image>#colum1>img{
+    border-radius: 15px;
+    width: 22%;
+}
+
+
+#colum2{
+    width: 100%;
+    padding: 1%;
+    display: flex;
+    flex-direction: row;
+    gap: 3vw;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+}
+.image>#colum2>img{
+    border-radius: 15px;
+    width: 22%;
+}
